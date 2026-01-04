@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <title>Page Not Found | Hudson Valley Solar Facts</title>
+  <meta name="description" content="Page not found. Return to Hudson Valley Solar Facts for the truth about solar energy.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Hudson Valley Solar Facts</a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="fire-myth.html">Fire Myth</a></li>
+        <li><a href="farmland.html">Farmland</a></li>
+        <li><a href="watershed.html">Watershed</a></li>
+        <li><a href="energy.html">Local Energy</a></li>
+        <li><a href="who-are-they.html">Who's Behind This?</a></li>
+        <li><a href="support.html" class="nav-cta">Support Us</a></li>
+      </ul>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="section" style="min-height: 60vh; display: flex; align-items: center;">
+    <div class="container" style="text-align: center;">
+      <h1 style="font-size: 6rem; color: var(--primary); margin-bottom: 0;">404</h1>
+      <h2>Page Not Found</h2>
+      <p style="color: var(--gray-600); margin: var(--space-4) 0 var(--space-8);">The page you're looking for doesn't exist. But the facts about solar do.</p>
+      <div style="display: flex; gap: var(--space-4); justify-content: center; flex-wrap: wrap;">
+        <a href="index.html" class="btn btn-primary btn-lg">Back to Home</a>
+        <a href="claims-exposed.html" class="btn btn-secondary btn-lg">See the Facts</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p>Hudson Valley Solar Facts. Facts over fear.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('nav-toggle').addEventListener('click', function() {
+      document.getElementById('nav-links').classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
