@@ -199,6 +199,10 @@ a:hover {
   background: linear-gradient(135deg, var(--gray-50) 0%, white 100%);
 }
 
+.hero .container {
+  padding-left: 25%;
+}
+
 .hero-content {
   max-width: 800px;
 }
@@ -454,6 +458,10 @@ blockquote cite {
   padding: var(--space-16) 0 var(--space-8);
   background: white;
   border-bottom: 1px solid var(--gray-200);
+}
+
+.page-header .container {
+  padding-left: 10%;
 }
 
 .page-header h1 {

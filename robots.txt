@@ -1,0 +1,6 @@
+# robots.txt for hvsolarfacts.org
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://hvsolarfacts.org/sitemap.xml
