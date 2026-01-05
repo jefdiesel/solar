@@ -205,17 +205,12 @@
         <p class="text-center" style="color: var(--gray-600);">Get updates on solar developments in Hudson Valley.</p>
 
         <form
-          name="newsletter"
+          action="https://formspree.io/f/YOUR_NEWSLETTER_FORM_ID"
           method="POST"
-          data-netlify="true"
-          netlify-honeypot="bot-field"
           class="mt-8"
           style="max-width: 500px; margin: var(--space-8) auto 0;"
         >
-          <input type="hidden" name="form-name" value="newsletter">
-          <p class="hidden">
-            <label>Don't fill this out: <input name="bot-field"></label>
-          </p>
+          <input type="hidden" name="_subject" value="New newsletter signup">
 
           <div style="display: flex; gap: var(--space-3); flex-wrap: wrap;">
             <input
@@ -241,16 +236,11 @@
         <p style="color: var(--gray-600);">Have a tip, correction, or want to get involved? We'd love to hear from you.</p>
 
         <form
-          name="contact"
+          action="https://formspree.io/f/YOUR_CONTACT_FORM_ID"
           method="POST"
-          data-netlify="true"
-          netlify-honeypot="bot-field"
           class="mt-8"
         >
-          <input type="hidden" name="form-name" value="contact">
-          <p class="hidden">
-            <label>Don't fill this out: <input name="bot-field"></label>
-          </p>
+          <input type="hidden" name="_subject" value="New contact from Hudson Valley Solar Facts">
 
           <div style="margin-bottom: var(--space-4);">
             <label for="name" style="display: block; font-weight: 500; margin-bottom: var(--space-2);">Name</label>
